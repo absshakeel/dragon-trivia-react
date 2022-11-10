@@ -8,7 +8,7 @@
 
 .container {
   width: 95%;
-  height: 90%;
+  height: 100%;
   position: relative;
 }
 .container > .bg {
@@ -97,5 +97,10 @@
   .container .innerContainer .right > img {
     /* height: 320px; */
     width: 30%;
+  }
+  .container > .bg {
+   
+    top: 40%;
+   
   }
 }
